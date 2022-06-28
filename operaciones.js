@@ -44,7 +44,7 @@ function init(){  // este bucle hará lo de la clase Particulas, dependiendo el 
 
 function animacion(){
   //ctx.clearRect(0, 0, canvas.width, canvas.height);  //Para particulas
-  //ctx.fillStyle = 'rgba(255,255,255, 0.006)'; //Para degradacion de lineas
+  //ctx.fillStyle = 'rgba(0,0,0, 0.040)'; //Para degradacion de lineas
   //ctx.fillRect(0, 0, canvas.width, canvas.height); //Para degradacion de lineas
     for(let i=0; i < arrayParticulas.length; i++){  // esto actualizará la posicion de las particulas y llamara al método draw para dibujar las particulas
         arrayParticulas[i].update();
